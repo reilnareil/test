@@ -1,21 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <div class="header">
-      <a href="#" class="logo">CompanyLogo</a>
-      <div class="header-right">
-        <a class="active" href="#">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
-      </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+      >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Live-Blog</a>
     </div>
-    <div style="padding-left: 20px">
-      <h1>Responsive Header</h1>
-      <p>Resize the browser window to see the effect.</p>
-      <p>Some content..</p>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#">Add Post</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+        </li>
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        </li>
+      </ul>
     </div>
-  </body>
-</html>
+  </div>
+</nav>
