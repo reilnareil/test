@@ -1,21 +1,8 @@
-<h2>Road Bike</h2>
-<img
-  src="http://lemonbin.com/wp-content/uploads/2020/06/road-bike-june172020-min.jpg"
-  class="img-responsive"
-/>
-<p>
-  Road bikes are best identified by their drop or turned-down handlebars and
-  skinny tires. The downward-curving handlebars are usually super lightweight
-  that help put you in an aerodynamic position. The lightweight frame makes this
-  type of bicycle particularly good for numerous pavement uses including racing,
-  touring, fitness riding, long-distance rides and daily commuting. The large,
-  thin tires allow you to glide the bike along various terrains with zero to
-  little effort. If you are supremely concerned about speed, varied options for
-  hand and riding positions, and an efficient transference of energy into
-  propelling the bike forward, a road bike is the best option for you.
-</p>
+<h2>{{ post?.title }}</h2>
+<img src="{{ post?.imagePath }}" class="img-responsive" />
+<p>{{ post?.description }}</p>
 
-<p>Author: reilan@test.com</p>
-<p>Date: Sept 1, 2022</p>
+<p>Author: {{ post?.author }}</p>
+<p>Date: {{ post?.dateCreated }}</p>
 <button>Edit</button> <button>Delete</button>
 <hr />
